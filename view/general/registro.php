@@ -85,7 +85,7 @@
                     <div class="form-group">
                       <label class="col-md-4 control-label" for="textinput">Teléfono</label>  
                       <div class="col-md-4">
-                          <input name="telefono" id='telefono' type="text" placeholder="Teléfono" class="form-control input-md" required/>
+                          <input name="telefono" id='telefono' type="text" placeholder="Teléfono" class="form-control input-md" onkeypress='return event.charCode >= 48 && event.charCode <= 57' required/>
                       </div>
                     </div>
                     <div class="form-group">
