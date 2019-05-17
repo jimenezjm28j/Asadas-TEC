@@ -43,7 +43,7 @@
                     <div class="form-group">
                       <label class="col-md-4 control-label" for="textinput">Cédula</label>  
                       <div class="col-md-4">
-                          <input name="cedula" id='cedula' type="text" placeholder="Cédula"  onchange="datos(this.value);" class="form-control input-md" required>
+                          <input name="cedula" id='cedula' type="text" placeholder="Cédula" onkeypress='return event.charCode >= 48 && event.charCode <= 57'  onchange="datos(this.value);" class="form-control input-md" required>
                       </div>
                     </div>
                     <div class="form-group">
